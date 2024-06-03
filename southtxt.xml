@@ -32,8 +32,8 @@
 
 <!ELEMENT racing (t:teams, c:cars)>
 <!ATTLIST  racing xmlns CDATA #FIXED "http://example.com/southracing">
-<!ENTITY teamsList PUBLIC "id" "teamstxt.xml">
-<!ENTITY carsList PUBLIC "id" "carstxt.xml">
+<!ENTITY teamsList SYSTEM "teamstxt.xml">
+<!ENTITY carsList SYSTEM  "carstxt.xml">
 
 ]>
 
